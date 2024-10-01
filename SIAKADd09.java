@@ -37,25 +37,25 @@ public class SIAKADd09 {
         if (nilaiAkhir >= 80) {
             nilaiHuruf = "A";
             kualifikasi = "Sangat Baik";
-        } else if (nilaiAkhir >= 73) {
-            nilaiHuruf = "B+";
-            kualifikasi = "Lebih dari Baik";
-        } else if (nilaiAkhir >= 65) {
-            nilaiHuruf = "B";
-            kualifikasi = "Baik";
-        } else if (nilaiAkhir >= 60) {
-            nilaiHuruf = "C+";
-            kualifikasi = "Lebih dari Cukup";
-        } else if (nilaiAkhir >= 50) {
-            nilaiHuruf = "C";
-            kualifikasi = "Cukup";
-        } else if (nilaiAkhir >= 39) {
-            nilaiHuruf = "D";
-            kualifikasi = "Kurang";
-        } else {
-            nilaiHuruf = "E";
-            kualifikasi = "Gagal";
-        }
+            } else if (nilaiAkhir >= 73) {
+                nilaiHuruf = "B+";
+                kualifikasi = "Lebih dari Baik";
+            } else if (nilaiAkhir >= 65) {
+                nilaiHuruf = "B";
+                kualifikasi = "Baik";
+            } else if (nilaiAkhir >= 60) {
+                nilaiHuruf = "C+";
+                kualifikasi = "Lebih dari Cukup";
+            } else if (nilaiAkhir >= 50) {
+                nilaiHuruf = "C";
+                kualifikasi = "Cukup";
+            } else if (nilaiAkhir >= 39) {
+                nilaiHuruf = "D";
+                kualifikasi = "Kurang";
+                } else {
+                    nilaiHuruf = "E";
+                    kualifikasi = "Gagal";
+                }
 
         // Output hasil
         System.out.println("\nHASIL PERHITUNGAN:");
